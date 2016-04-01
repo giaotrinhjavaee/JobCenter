@@ -1,0 +1,14 @@
+/* 
+    Created on : Mar 30, 2016, 4:50:34 PM
+    Author     : Le Thi Minh Loan
+*/
+input {
+    width: 250px;
+}
+textarea {
+    width: 250px;
+    height: 150px;
+}
+label {
+    font-weight: bold;
+}
