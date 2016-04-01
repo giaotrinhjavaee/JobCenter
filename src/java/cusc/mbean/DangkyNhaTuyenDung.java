@@ -16,10 +16,7 @@ import javax.faces.bean.RequestScoped;
 @ManagedBean
 @RequestScoped
 public class DangkyNhaTuyenDung {
-
-    /**
-     * Creates a new instance of DangkyNhaTuyenDung
-     */
+    String email;
     public DangkyNhaTuyenDung() {
     }
     
