@@ -1,18 +1,32 @@
 package cusc.mbean;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
+
 @ManagedBean
 @RequestScoped
 public class DangkyNhaTuyenDung {
+
     private String email;
     private String matkhau;
     private String tencongty;
     private String motacongty;
     private String websitecongty;
-    
+
     public DangkyNhaTuyenDung() {
-        
+
+    }
+
+    @PostConstruct
+    public void init() {
+        // initialization code
+    }
+
+    @PreDestroy
+    public void shutdown() {
+        // shutdown code
     }
 
     public String getEmail() {
@@ -54,5 +68,5 @@ public class DangkyNhaTuyenDung {
     public void setWebsitecongty(String websitecongty) {
         this.websitecongty = websitecongty;
     }
-    
+
 }
