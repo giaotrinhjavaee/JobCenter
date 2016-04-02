@@ -2,11 +2,6 @@ package cusc.mbean;
 
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
-
-/**
- *
- * @author Le Thi Minh Loan
- */
 @ManagedBean
 @RequestScoped
 public class DangkyNhaTuyenDung {
